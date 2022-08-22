@@ -1,0 +1,59 @@
+html, body {
+    height: 100vh;
+    overflow: hidden;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+    max-width: 1440px;
+    height: 100%;
+    padding-right: 10px; 
+    padding-left: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.card {
+    background-color: hsl(0, 0%, 100%);
+    width: 220px;
+    height: 350px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+}
+.image {
+    width: 200px;
+    height: 200px;
+    margin: 10px 10px 0 10px;
+    border-radius: 5px;
+}
+
+.text {
+    margin: 0 0 25px 0;
+}
+.title {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    align-self: center;
+    text-align: center;
+    margin: 0 15px 0 15px;
+    font-size: 15px;
+}
+.description {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 10px 15px 10px 15px;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+}
+@media screen and (min-width: 375px) {
+    .card {
+      width: 220px;
+      height: 350px;;
+    }
+  }
